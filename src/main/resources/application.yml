@@ -5,4 +5,5 @@ server:
 spring:
   data:
     solr:
+      #host: http://localhost:8983/solr/my_core
       host: http://localhost:8983/solr/new_core

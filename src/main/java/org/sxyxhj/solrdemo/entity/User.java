@@ -18,7 +18,7 @@ public class User {
     @Field
     private String userName;
     @Field
-    private String userAge;
+    private int userAge;
     @Field
     private String sex;
     @Field
@@ -42,11 +42,11 @@ public class User {
         this.userName = userName;
     }
 
-    public String getUserAge() {
+    public int getUserAge() {
         return userAge;
     }
 
-    public void setUserAge(String userAge) {
+    public void setUserAge(int userAge) {
         this.userAge = userAge;
     }
 
